@@ -1,11 +1,10 @@
-import Weather from "./components/view/WeatherView";
+import WeatherView from "./components/view/WeatherView";
 import Covid from "./components/view/CovidView";
 
 function App() {
 	return (
 		<>
-			<Weather></Weather>
-			<Covid></Covid>
+			<WeatherView></WeatherView>
 		</>
 	);
 }
